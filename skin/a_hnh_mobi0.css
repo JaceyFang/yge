@@ -1,0 +1,260 @@
+/**** layout  ****/  
+
+
+
+
+
+
+@media screen and (max-width:720px){
+/*** head ***/
+.cutdel{display:none;}
+.navbox{position:fixed;top:0;right:0;z-index:3;display:none;width:40%;height:100%;background:rgba(0,0,0,0.5);}
+.navbox  li{margin:10px auto 0;width:50%;line-height:30px;border-radius:6px;}
+.tonavbox{position:absolute;top:24px;right:10px;width:60px;height:30px;
+background:url(vv1.png) no-repeat center center/40% auto;}
+
+.navbox  li:hover{background-color:#12a3d6;}
+
+.tonavbox.now{position:fixed;top:0;right:0;bottom:0;left:0;
+width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:3;}
+.navbox.block{display:block;}
+
+/*** zixun ***/
+.zxmod{display:none;}
+
+/***  jpage-us.html  ***/
+.usbh{padding:28% 0 3% 0;}
+.uscov2{width:90%;}
+.usnte{margin:10% 4% 0;line-height:62px;height:62px;}
+
+
+/***  service.html  ***/
+.a6cov{margin:8% auto 6%;}
+.a6tit{display:none;}
+.tlphoto .first{margin:0 auto;display:block;}
+.service p{padding:0 4%;}
+
+
+/***  jgoodcat.html  ***/
+.a4lnk{display:none;}
+.a4tit .seco{display:block;}
+
+.a5bti{margin-top:10%;}
+.a5mor2{width:300px;}
+
+
+/***  jgoodcat2.html  ***/
+.b1itm2{display:none;}
+.b1itm1{}
+.b1lbl{display:none;}
+.b1cot:hover .b1itm1{}
+.b1cot:hover .b1bti{}
+
+
+
+/***  jblogcat.html  ***/
+.newscot li{display:none;}
+.newsmod .newscot>.shouji{display:block;width:92%;}
+.newscot li{padding:30px 4%;}
+.newscot .first{}
+.newsnh{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.newsmod .newscot>.newsitm{display:block;width:92%;}
+.a5mor{width:300px;}
+
+
+/***  jpage-lianxi.html  ***/
+.p1mtaqq{}
+.page2s{padding-top:30%;background:url(footbg.png) no-repeat 0 100%/100% 100%;}
+.soptt{width:300px;}
+.p1ipt li{margin:0 auto 20px;width:84%;}
+.teta{margin:0 auto;display:block;width:84%;}
+
+/***  scrolltop.html  ***/
+.scrpages{display:none;}
+
+
+
+}
+
+@media screen and (min-width:721px) and (max-width:1000px){
+/*** head ***/
+.nav{float:right;}
+.nav li{float:left;width:65px;height:60px;}
+.nav li  a{height:60px;padding-top:20px;}
+.cutdel{display:none;}
+
+/***  jpage-us.html  ***/
+.usbh{padding:28% 0 3% 0;}
+.uscov2{width:90%;}
+.usnte{margin:10% auto 0;}
+.usnte2{width:348px;line-height:62px;height:62px;}
+
+
+
+/***  service.html  ***/
+.a7cov{width:90%;}
+.service .a7nte{padding-top:16%;}
+.service p{padding:0 4%;}
+.a6tit.first{margin-left:0;}
+.a6tit{float:left;margin-left:2%;width:23.5%;}
+.a6cov{margin:0 auto;padding:14% 0 6% 0;}
+
+
+
+/***  jgoodcat.html  ***/
+.a4tit{height:60%;}
+.a4lnk{float:left;width:32%;}
+.a5mor2{width:350px;}
+
+
+
+/***  jblogcat.html  ***/
+.newsnh{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.newscot li{width:45%;padding:30px 0;}
+.newscot .first{margin-right:5%;}
+
+.a5mor{width:350px;}
+
+
+/***  jpage-lianxi.html  ***/
+.p1mta2{display:none;}
+.p1mtaqq{position:absolute;top:60px;right:100px;}
+.page2s{padding-top:30%;background:url(footbg.png) no-repeat 0 100%/100% 80%;}
+.soptt{width:350px;}
+.p1ipt li{float:left;width:33.3%;}
+.teta{width:99.3%;}
+
+
+
+
+/***  scrolltop.html  ***/
+.nava.curr{background:url(navli.png) no-repeat 0 -6px;}
+
+
+
+
+}
+
+@media screen and (min-width:1001px) and (max-width:1400px){
+/*** head ***/
+.nav{float:right;}
+.nav li{float:left;width:65px;height:60px;}
+.nav li  a{height:60px;padding-top:20px;}
+
+
+/***  jpage-us.html  ***/
+.uscov2{width:90%;}
+.usbh{padding:10% 0 3% 0;}
+.usnte{margin:3% auto 0;}
+.usnte2{width:348px;line-height:62px;height:62px;}
+
+
+
+/***  service.html  ***/
+.service p{padding:0 4%;}
+.service .a7nte{padding-top:8%;}
+.a6cov{margin:0 auto;padding:2% 0;}
+.a6tit{float:left;margin-left:2%;width:23.5%;}
+.a6tit.first{margin-left:0;}
+
+
+
+/***  jgoodcat.html  ***/
+.a4tit{}
+.a4lnk{float:left;width:32%;}
+.a5mor2{width:350px;}
+
+
+
+
+
+
+
+
+/***  jblogcat.html  ***/
+.newscot{}
+.newscot li{width:45%;}
+.newscot .first{margin-right:5%;}
+.newsnh{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.a5mor{width:350px;}
+
+
+
+/***  jpage-lianxi.html  ***/
+.p1mtaqq{position:absolute;top:60px;right:100px;}
+.page2s{background:url(footbg.png) no-repeat 0 100%/100% 60%;}
+.soptt{width:350px;}
+.page2{}
+.p1ipt li{float:left;width:33.3%;}
+.teta{width:99.3%;}
+
+
+
+
+/***  scrolltop.html  ***/
+.nava.curr{background:url(navli.png) no-repeat 0 -6px;}
+
+
+
+
+}
+
+
+@media screen and (min-width:1401px){
+/*** head ***/
+.con{width:70%;margin:0 auto;}
+.nav{float:right;}
+.nav li{float:left;width:65px;height:60px;}
+.nav li  a{height:60px;padding-top:20px;}
+.Logo{width:64%;}
+
+
+
+/***  jpage-us.html  ***/
+.uscov2{padding:30px 0;}
+.usbh{padding:9% 0 3% 0;}
+.usnte{margin:3% auto 0;}
+.usnte2{width:348px;line-height:62px;height:62px;}
+
+
+/***  service.html  ***/
+.a7nte{padding-top:8%;}
+.a6cov{margin:0 auto;padding:8% 0 6% 0;}
+.a6tit{float:left;margin-left:2%;width:23.5%;}
+.a6tit.first{margin-left:0;}
+
+
+/***  jgoodcat.html  ***/
+.a4tit{}
+.a4lnk{float:left;width:32%;}
+.a5mor2{width:350px;}
+
+
+
+
+/***  jblogcat.html  ***/
+.newscot li{width:45%;padding:30px 0;}
+.newsnh{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.newscot .first{margin-right:5%;}
+.a5mor{width:350px;}
+
+
+/***  jpage-lianxi.html  ***/
+.p1mtaqq{position:absolute;top:60px;right:100px;}
+
+.soptt{width:350px;}
+.page2{width:64%;}
+.p1ipt li{float:left;width:33.3%;}
+.teta{width:99.3%;}
+
+
+
+
+/***  scrolltop.html  ***/
+.nava.curr{background:url(navli.png) no-repeat 0 -6px;}
+
+
+
+}
+
+/**** layout ****/

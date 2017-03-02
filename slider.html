@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	<meta name="renderer" content="webkit|ie-stand"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="viewport" content="initial-scale=1.0, width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no, email=no"/>
+	<meta name="msapplication-tap-highlight" content="no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="x5-page2-mode" content="app"/>
+	<meta name="browsermode" content="application"/>
+	<title>slider</title>
+	<link href="skin/a_hnh.css" rel="stylesheet" />
+</head>
+
+
+<body id="Slider">
+
+	<div class="all" id="fullpage">
+
+		<div class="indexout section" id="section0">
+
+			<div class="index cf">
+
+				<div class="slide" id="slide1" data-anchor="slide1">
+					<a class="slicob" href="#sli1.html">
+						<img class="slicov" src="skin/lb3.jpg" />
+					</a>
+				</div><!--slide1-->
+
+				<div class="slide" id="slide2" data-anchor="slide2">
+					<a class="slicob" href="#sli2.html">
+						<img class="slicov" src="skin/lb2.jpg" />
+					</a>
+				</div><!--slide2-->
+
+				<div class="slide" id="slide3" data-anchor="slide3">
+					<a class="slicob" href="#sli3.html">
+						<img class="slicov" src="skin/lb1.jpg" />
+					</a>
+				</div><!--slide3-->
+
+
+			</div><!--index-->
+
+
+		</div><!--section0-->
+
+
+	</div><!--fullpage-->
+
+
+
+	<!--js放在后面-->
+
+	<script src="js/jq.js"></script>
+
+	<script src="js/jquery.slimscroll.min.js"></script>
+
+	<script src="js/jquery.fullpage.min.js"></script>
+
+
+	<script>
+
+
+	$(document).ready(function() {
+
+		$('#fullpage').fullpage({
+
+			//anchors: ['pinga', 'pingb', 'pingc', 'pingd', 'pinge', 'pingf', 'pingg'],
+
+
+			//slides
+			slidesNavigation: true,
+			controlArrows: true,
+			controlArrowColor: '#f00',	
+			afterRender: function () {
+							setInterval(function () {
+								$.fn.fullpage.moveSlideRight();
+							}, 3000);
+			},//slides autopages
+
+
+			//autoScrolling: true,
+			//css3: true,
+			//fitToSection: false,
+
+			//scrollOverflow: true	//子页面不等高
+			//loopBottom: true,//fullpages auto turn
+
+
+		});
+
+	});
+
+
+
+	</script>
+
+
+</body>
+</html>

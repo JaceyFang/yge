@@ -1,0 +1,70 @@
+/**** layout  ****/  
+
+/*** head ***/
+.con{margin:0 auto;}
+.nav{}
+.nav li{width:65px;height:63px;}
+.nav li.active{background:url(navli.png) repeat-x 0 bottom / auto 100%;}
+.nav li a{height:43px;padding-top:20px;}/* wait */
+.logo{}
+
+.uscov2{padding:30px 0;}
+.usbh{padding:9% 0 3% 0;}
+.usnte{margin:3% auto 0;}
+.usnte2{width:348px;line-height:62px;height:62px;}
+
+.a7nte{padding-top:8%;}
+.a6cov{margin:0 auto;padding:8% 0 6% 0;}
+.a6tit{float:left;margin-left:2%;width:23.5%;}
+.a6tit.first{margin-left:0;}
+
+.a4tit{}
+.a4lnk{float:left;width:32%;}
+.a5mor2{width:350px;}
+
+.newscot li{width:45%;padding:30px 0;}
+.newsnh{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.newscot .first{margin-right:5%;}
+.a5mor{width:350px;}
+
+.p1mtaqq{position:absolute;top:60px;right:100px;}
+
+.soptt{width:350px;}
+.page2{width:64%;}
+.p1ipt li{float:left;width:33.3%;}
+.teta{width:99.3%;}
+
+
+
+
+/***  scrolltop.html  ***/
+.nava.curr{background:url(navli.png) no-repeat 0 -6px;}
+
+
+
+
+
+@media screen and (max-width:720px){
+.con{}
+.nav{}
+.nav li{}
+.logo{width:64%;}
+}
+
+@media screen and (min-width:721px) and (max-width:1000px){
+.con{width:70%}
+.nav{float:right;}
+.nav li{float:left;}
+.logo{width:70%;}
+}
+
+@media screen and (min-width:1001px){
+.con{width:70%}
+.nav{float:right;}
+.nav li{float:left;}
+.logo{width:70%;}
+
+
+}
+
+/**** layout ****/
